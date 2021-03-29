@@ -4,6 +4,10 @@ import styles from './app.module.css';
 
 import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
+import { ExampleClass } from '@test/test';
+
+const bar = new ExampleClass();
+console.log(bar['foo']);
 
 export function App() {
   return (
